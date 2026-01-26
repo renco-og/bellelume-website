@@ -886,6 +886,12 @@ section {
     color: var(--color-gray);
 }
 
+.footer-company {
+    font-size: 0.8125rem;
+    color: var(--color-gray-light);
+    margin-bottom: var(--space-xs);
+}
+
 /* ========================================
    Animations
    ======================================== */
