@@ -775,6 +775,12 @@ section {
     line-height: 1.7;
 }
 
+.contact-reassurance {
+    margin-top: var(--space-sm);
+    font-size: 0.9375rem;
+    color: var(--color-gray-light);
+}
+
 .contact-form {
     background: var(--color-cream);
     padding: var(--space-xl);
