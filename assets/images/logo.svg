@@ -1,0 +1,30 @@
+<svg viewBox="0 0 220 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A853"/>
+      <stop offset="100%" stop-color="#E8C97A"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Wordmark -->
+  <text
+    x="0"
+    y="28"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="22"
+    font-weight="700"
+    letter-spacing="0.15em"
+    fill="#2D2D2D"
+  >BELLE LUME</text>
+
+  <!-- Light accent - subtle glow dot -->
+  <circle cx="210" cy="8" r="5" fill="url(#goldGradient)" filter="url(#glow)"/>
+  <circle cx="210" cy="8" r="8" fill="#D4A853" fill-opacity="0.2"/>
+</svg>
